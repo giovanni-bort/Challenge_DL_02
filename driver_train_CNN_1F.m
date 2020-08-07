@@ -48,7 +48,7 @@ maxEpochs = 10; % 30 %15;
 dir_CINC_DL_IMG=output_directory;
 
 NORM_chk=1;
-n_MAX_rec=1000;
+n_MAX_rec=1500;
 while n_MAX_rec>0
   [list_ok, files_ok, full_files_ok ,List_Diagn_ok]=select_train_records(dir_CINC_DL_IMG,n_MAX_rec,0,NORM_chk);
 %   n_MAX_rec=input('n_MAX_rec     ');
